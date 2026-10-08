@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinicius de Souza | Desenvolvedor Full Stack & Analista de Dados</title>
-    <meta name="description" content="Portfólio Profissional de Vinicius de Souza - Desenvolvedor Full Stack e Analista de Dados (PJ/MEI).">
+    <title>Vinicius de Souza | Engenharia de Software & Dados</title>
+    <!-- Ícone da Guia (Favicon) de Tecnologia -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2306B6D4' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><polyline points='16 18 22 12 16 6'></polyline><polyline points='8 6 2 12 8 18'></polyline></svg>">
+    <meta name="description" content="Portfólio Executivo de Vinicius de Souza - Desenvolvedor Full Stack, Especialista em Integrações e Analista de Dados.">
     
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -48,6 +50,9 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+        .img-glow {
+            box-shadow: 0 0 40px -10px rgba(6, 182, 212, 0.5);
+        }
     </style>
 </head>
 <body class="bg-darkBg text-slate-200 antialiased selection:bg-brand-500 selection:text-white">
@@ -64,21 +69,20 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <a href="#" class="flex items-center gap-3 group">
                 <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-cyan-500 flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-brand-500/20 group-hover:scale-105 transition-transform">
-                    V
+                    VS
                 </div>
                 <div>
                     <span class="font-bold text-lg tracking-tight text-white group-hover:text-cyan-400 transition-colors">Vinicius de Souza</span>
-                    <span class="block text-xs font-mono text-slate-400">Dev Full Stack & Dados</span>
+                    <span class="block text-xs font-mono text-slate-400">Engenharia de Software</span>
                 </div>
             </a>
 
             <!-- Menu Desktop -->
             <nav class="hidden md:flex items-center gap-8">
-                <a href="#sobre" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition-colors">Sobre</a>
+                <a href="#perfil" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition-colors">Perfil Profissional</a>
+                <a href="#sistemas" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition-colors">Sistemas Corporativos</a>
                 <a href="#stack" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition-colors">Tecnologias</a>
-                <a href="#projetos" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition-colors">Projetos</a>
-                <a href="#experiencia" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition-colors">Experiência</a>
-                <a href="#formacao" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition-colors">Formação</a>
+                <a href="#formacao" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition-colors">Formação & Idiomas</a>
                 <a href="#contato" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-brand-600 to-cyan-600 text-white font-semibold text-sm hover:opacity-95 shadow-md shadow-brand-500/20 transition-all">
                     Fale Comigo
                 </a>
@@ -90,11 +94,10 @@
         </div>
 
         <div id="mobileMenu" class="hidden md:hidden px-4 pt-2 pb-6 space-y-3 glass border-b border-darkBorder">
-            <a href="#sobre" class="block py-2 text-sm text-slate-300 hover:text-cyan-400">Sobre</a>
+            <a href="#perfil" class="block py-2 text-sm text-slate-300 hover:text-cyan-400">Perfil Profissional</a>
+            <a href="#sistemas" class="block py-2 text-sm text-slate-300 hover:text-cyan-400">Sistemas Corporativos</a>
             <a href="#stack" class="block py-2 text-sm text-slate-300 hover:text-cyan-400">Tecnologias</a>
-            <a href="#projetos" class="block py-2 text-sm text-slate-300 hover:text-cyan-400">Projetos</a>
-            <a href="#experiencia" class="block py-2 text-sm text-slate-300 hover:text-cyan-400">Experiência</a>
-            <a href="#formacao" class="block py-2 text-sm text-slate-300 hover:text-cyan-400">Formação</a>
+            <a href="#formacao" class="block py-2 text-sm text-slate-300 hover:text-cyan-400">Formação & Idiomas</a>
             <a href="#contato" class="block text-center py-2.5 rounded-lg bg-brand-600 text-white font-semibold text-sm">Fale Comigo</a>
         </div>
     </header>
@@ -107,107 +110,66 @@
                 <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
                     <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 text-xs font-semibold">
                         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-                        Disponível para novos projetos & contratos (PJ / MEI)
+                        Disponível para novos projetos corporativos (PJ / MEI)
                     </div>
                     
                     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
-                        Transformando regras de negócio em <span class="gradient-text">sistemas escaláveis</span> e integrados.
+                        Engenharia de Software de ponta a ponta para <span class="gradient-text">sistemas escaláveis</span>.
                     </h1>
 
                     <p class="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                        Desenvolvedor Full Stack & Analista de Dados. Experiência na construção de ecossistemas corporativos, integração de APIs RESTful com hardware biométrico/facial e gestão de infraestrutura em nuvem.
+                        Desenvolvedor Full Stack com sólida experiência em arquitetura de software, automação de regras de negócio, infraestrutura em nuvem e integração de APIs complexas (incluindo biometria facial, IoT e controle de acesso).
                     </p>
 
                     <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
-                        <a href="#projetos" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-brand-600 to-cyan-600 text-white font-semibold text-sm hover:opacity-95 shadow-lg shadow-brand-500/25 transition-all flex items-center gap-2">
-                            <i data-lucide="layers" class="w-4 h-4"></i> Explorar Projetos
+                        <a href="#sistemas" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-brand-600 to-cyan-600 text-white font-semibold text-sm hover:opacity-95 shadow-lg shadow-brand-500/25 transition-all flex items-center gap-2">
+                            <i data-lucide="monitor" class="w-4 h-4"></i> Ver Sistemas
                         </a>
                         <a href="https://github.com/vini10sz" target="_blank" rel="noopener" class="px-6 py-3.5 rounded-xl bg-darkCard border border-darkBorder hover:border-slate-600 text-slate-200 font-semibold text-sm hover:bg-slate-800 transition-all flex items-center gap-2">
-                            <i data-lucide="github" class="w-4 h-4"></i> GitHub
+                            <i data-lucide="github" class="w-4 h-4"></i> Repositórios
                         </a>
                         <a href="https://www.linkedin.com/in/vinicius-souza-7731b9263/" target="_blank" rel="noopener" class="px-6 py-3.5 rounded-xl bg-darkCard border border-darkBorder hover:border-blue-500 text-slate-200 font-semibold text-sm hover:bg-slate-800 transition-all flex items-center gap-2">
-                            <i data-lucide="linkedin" class="w-4 h-4 text-blue-400"></i> LinkedIn
+                            <i data-lucide="linkedin" class="w-4 h-4 text-blue-400"></i> Conectar
                         </a>
-                    </div>
-
-                    <div class="pt-6 border-t border-darkBorder/60 flex flex-wrap items-center justify-center lg:justify-start gap-2 text-xs font-mono text-slate-400">
-                        <span class="text-slate-500">Core:</span>
-                        <span class="px-2.5 py-1 rounded bg-darkCard border border-darkBorder">PHP</span>
-                        <span class="px-2.5 py-1 rounded bg-darkCard border border-darkBorder">Java / Spring</span>
-                        <span class="px-2.5 py-1 rounded bg-darkCard border border-darkBorder">Python</span>
-                        <span class="px-2.5 py-1 rounded bg-darkCard border border-darkBorder">C#</span>
-                        <span class="px-2.5 py-1 rounded bg-darkCard border border-darkBorder">JavaScript</span>
-                        <span class="px-2.5 py-1 rounded bg-darkCard border border-darkBorder">MySQL</span>
-                        <span class="px-2.5 py-1 rounded bg-darkCard border border-darkBorder">APIs REST</span>
                     </div>
                 </div>
 
-                <!-- Preview do Código -->
-                <div class="lg:col-span-5">
-                    <div class="relative group">
-                        <div class="absolute -inset-1 bg-gradient-to-r from-brand-600 to-cyan-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
-                        <div class="relative rounded-2xl bg-darkCard border border-darkBorder p-6 shadow-2xl space-y-5">
-                            <div class="flex items-center justify-between pb-3 border-b border-darkBorder">
-                                <div class="flex items-center gap-2">
-                                    <div class="w-3 h-3 rounded-full bg-rose-500"></div>
-                                    <div class="w-3 h-3 rounded-full bg-amber-500"></div>
-                                    <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
-                                </div>
-                                <span class="text-xs font-mono text-slate-500">perfil_dev.json</span>
-                            </div>
-
-                            <pre class="font-mono text-xs sm:text-sm text-slate-300 overflow-x-auto leading-relaxed"><code>{
-  <span class="text-purple-400">"nome"</span>: <span class="text-emerald-400">"Vinicius de Souza"</span>,
-  <span class="text-purple-400">"funcao"</span>: <span class="text-emerald-400">"Full Stack & Data Analyst"</span>,
-  <span class="text-purple-400">"empresa_modelo"</span>: <span class="text-emerald-400">"PJ / MEI"</span>,
-  <span class="text-purple-400">"formacao"</span>: {
-    <span class="text-purple-400">"superior"</span>: <span class="text-emerald-400">"FATEC Guarulhos (ADS - 4º Sem)"</span>,
-    <span class="text-purple-400">"tecnico"</span>: <span class="text-emerald-400">"ETEC Guarulhos (Téc. DS)"</span>
-  },
-  <span class="text-purple-400">"projetos_destaque"</span>: [
-    <span class="text-emerald-400">"Catresp Access (Acesso & Facial)"</span>,
-    <span class="text-emerald-400">"Painel RH Tranquility (Control iD API)"</span>,
-    <span class="text-emerald-400">"Snack-On (TCC Premiado)"</span>
-  ]
-}</code></pre>
-
-                            <div class="grid grid-cols-3 gap-3 pt-3 border-t border-darkBorder text-center">
-                                <div class="p-2.5 rounded-xl bg-slate-900/80 border border-darkBorder">
-                                    <div class="text-xl font-extrabold text-white font-mono">4º Sem</div>
-                                    <div class="text-[11px] text-slate-400">FATEC ADS</div>
-                                </div>
-                                <div class="p-2.5 rounded-xl bg-slate-900/80 border border-darkBorder">
-                                    <div class="text-xl font-extrabold text-cyan-400 font-mono">8+</div>
-                                    <div class="text-[11px] text-slate-400">Repositórios</div>
-                                </div>
-                                <div class="p-2.5 rounded-xl bg-slate-900/80 border border-darkBorder">
-                                    <div class="text-xl font-extrabold text-brand-400 font-mono">100%</div>
-                                    <div class="text-[11px] text-slate-400">Projetos Reais</div>
-                                </div>
-                            </div>
+                <!-- Imagem de Tecnologia -->
+                <div class="lg:col-span-5 relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-brand-600 to-cyan-500 rounded-3xl blur-xl opacity-30 group-hover:opacity-60 transition duration-1000"></div>
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Arquitetura de Código e Tecnologia" class="relative rounded-2xl border border-darkBorder shadow-2xl img-glow object-cover h-[400px] w-full">
+                    
+                    <!-- Floating Badge -->
+                    <div class="absolute -bottom-6 -left-6 bg-darkCard border border-darkBorder p-4 rounded-xl shadow-xl flex items-center gap-4 glass">
+                        <div class="w-12 h-12 rounded-full bg-cyan-500/20 flex items-center justify-center text-cyan-400">
+                            <i data-lucide="code" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm font-bold text-white">Full Stack Dev</p>
+                            <p class="text-xs text-slate-400 font-mono">Back-end & Infra</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Sobre Mim -->
-        <section id="sobre" class="py-20 border-t border-darkBorder/60 bg-darkCard/30">
+        <!-- Perfil Profissional -->
+        <section id="perfil" class="py-20 border-t border-darkBorder/60 bg-darkCard/30">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
-                    <h2 class="text-xs font-mono tracking-widest text-cyan-400 uppercase">Trajetória</h2>
-                    <p class="text-3xl sm:text-4xl font-extrabold text-white">Sobre Mim</p>
+                    <h2 class="text-xs font-mono tracking-widest text-cyan-400 uppercase">Visão Executiva</h2>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-white">Perfil Profissional</p>
                     <div class="w-16 h-1 bg-gradient-to-r from-brand-500 to-cyan-500 mx-auto rounded-full"></div>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="p-8 rounded-2xl bg-darkCard border border-darkBorder hover:border-brand-500/50 transition-all space-y-4">
                         <div class="w-12 h-12 rounded-xl bg-brand-500/10 border border-brand-500/20 text-brand-400 flex items-center justify-center">
-                            <i data-lucide="code-2" class="w-6 h-6"></i>
+                            <i data-lucide="braces" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-white">Full Stack & Back-end</h3>
+                        <h3 class="text-xl font-bold text-white">Desenvolvimento e Arquitetura</h3>
                         <p class="text-sm text-slate-400 leading-relaxed">
-                            Construção de aplicações corporativas de ponta a ponta com foco em estabilidade, boas práticas, modelagem de banco de dados e performance.
+                            Projeção e codificação de sistemas corporativos robustos, aplicando as melhores práticas de Engenharia de Software. Foco absoluto em estabilidade, arquitetura limpa, segurança da informação e alta performance no tráfego de dados.
                         </p>
                     </div>
 
@@ -215,217 +177,224 @@
                         <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 flex items-center justify-center">
                             <i data-lucide="cpu" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-white">APIs & Hardware</h3>
+                        <h3 class="text-xl font-bold text-white">Integração de Hardwares & APIs</h3>
                         <p class="text-sm text-slate-400 leading-relaxed">
-                            Experiência na integração de sistemas com terminais de biometria facial Control iD, leitura de QR Code/RFID, relógios de ponto eletrônico e catracas.
+                            Vasta experiência em sincronizar softwares web com hardwares físicos. Especialista em comunicação via APIs RESTful com terminais Control iD, leitores RFID/QR Code, catracas de acesso, relógios de ponto eletrônico e microcontroladores (Raspberry Pi).
                         </p>
                     </div>
 
                     <div class="p-8 rounded-2xl bg-darkCard border border-darkBorder hover:border-purple-500/50 transition-all space-y-4">
                         <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 text-purple-400 flex items-center justify-center">
-                            <i data-lucide="bar-chart-3" class="w-6 h-6"></i>
+                            <i data-lucide="server" class="w-6 h-6"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-white">Dados & Nuvem</h3>
+                        <h3 class="text-xl font-bold text-white">Infraestrutura Cloud & Dados</h3>
                         <p class="text-sm text-slate-400 leading-relaxed">
-                            Certificado Google Data Analytics com habilidades para tratamento de dados, relatórios gerenciais e implantação de ambientes na DigitalOcean.
+                            Administração de ambientes Linux em nuvem (DigitalOcean), deploy seguro de aplicações e modelagem complexa de bancos de dados relacionais e não-relacionais, garantindo integridade e extração analítica precisa de métricas operacionais.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Stack Tecnológica -->
+        <!-- Stack Tecnológica Completa -->
         <section id="stack" class="py-20 border-t border-darkBorder/60">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
-                    <h2 class="text-xs font-mono tracking-widest text-brand-400 uppercase">Tecnologias</h2>
-                    <p class="text-3xl sm:text-4xl font-extrabold text-white">Stack & Ferramentas</p>
+                    <h2 class="text-xs font-mono tracking-widest text-brand-400 uppercase">Tech Stack</h2>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-white">Tecnologias & Ferramentas</p>
                     <div class="w-16 h-1 bg-gradient-to-r from-brand-500 to-cyan-500 mx-auto rounded-full"></div>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <div class="p-6 rounded-2xl bg-darkCard border border-darkBorder space-y-4">
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="server" class="w-5 h-5 text-brand-400"></i>
+                    <!-- Back-end -->
+                    <div class="p-6 rounded-2xl bg-darkCard border border-darkBorder space-y-4 hover:border-brand-500/50 transition-colors">
+                        <div class="flex items-center gap-3 border-b border-darkBorder pb-3">
+                            <i data-lucide="terminal" class="w-5 h-5 text-brand-400"></i>
                             <h3 class="font-bold text-white text-base">Back-end</h3>
                         </div>
-                        <div class="flex flex-wrap gap-2 text-xs font-mono">
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">PHP</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">Java</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">Spring Boot</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">Python</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">C#</span>
-                        </div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> PHP 8+ (Estruturado e POO)</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Java & Spring Boot</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Python</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> C#</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Construção de APIs REST</li>
+                        </ul>
                     </div>
 
-                    <div class="p-6 rounded-2xl bg-darkCard border border-darkBorder space-y-4">
-                        <div class="flex items-center gap-3">
+                    <!-- Front-end -->
+                    <div class="p-6 rounded-2xl bg-darkCard border border-darkBorder space-y-4 hover:border-cyan-500/50 transition-colors">
+                        <div class="flex items-center gap-3 border-b border-darkBorder pb-3">
                             <i data-lucide="layout" class="w-5 h-5 text-cyan-400"></i>
-                            <h3 class="font-bold text-white text-base">Front-end</h3>
+                            <h3 class="font-bold text-white text-base">Front-end & UI</h3>
                         </div>
-                        <div class="flex flex-wrap gap-2 text-xs font-mono">
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">JavaScript</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">TypeScript</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">HTML5</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">CSS3</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">Bootstrap 5</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">Tailwind</span>
-                        </div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> JavaScript / TypeScript</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> HTML5 Semântico</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> CSS3 / Layouts Responsivos</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Tailwind CSS</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Bootstrap 5</li>
+                        </ul>
                     </div>
 
-                    <div class="p-6 rounded-2xl bg-darkCard border border-darkBorder space-y-4">
-                        <div class="flex items-center gap-3">
+                    <!-- Dados -->
+                    <div class="p-6 rounded-2xl bg-darkCard border border-darkBorder space-y-4 hover:border-emerald-500/50 transition-colors">
+                        <div class="flex items-center gap-3 border-b border-darkBorder pb-3">
                             <i data-lucide="database" class="w-5 h-5 text-emerald-400"></i>
                             <h3 class="font-bold text-white text-base">Banco de Dados</h3>
                         </div>
-                        <div class="flex flex-wrap gap-2 text-xs font-mono">
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">MySQL</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">PostgreSQL</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">MongoDB</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">Modelagem DER/MER</span>
-                        </div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> MySQL</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> PostgreSQL</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> MongoDB</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Modelagem DER/MER</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Extração e Análise (SQL Avançado)</li>
+                        </ul>
                     </div>
 
-                    <div class="p-6 rounded-2xl bg-darkCard border border-darkBorder space-y-4">
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="cloud" class="w-5 h-5 text-purple-400"></i>
-                            <h3 class="font-bold text-white text-base">Cloud & Ferramentas</h3>
+                    <!-- Cloud & Infra -->
+                    <div class="p-6 rounded-2xl bg-darkCard border border-darkBorder space-y-4 hover:border-purple-500/50 transition-colors">
+                        <div class="flex items-center gap-3 border-b border-darkBorder pb-3">
+                            <i data-lucide="cloud-cog" class="w-5 h-5 text-purple-400"></i>
+                            <h3 class="font-bold text-white text-base">Infraestrutura & Hardwares</h3>
                         </div>
-                        <div class="flex flex-wrap gap-2 text-xs font-mono">
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">DigitalOcean</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">Git / GitHub</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">Postman</span>
-                            <span class="px-3 py-1.5 rounded-lg bg-darkBg border border-darkBorder">APIs REST</span>
-                        </div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Servidores DigitalOcean (Linux)</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Git & GitHub / Controle de Versão</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Hardware Control iD (Biometria)</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Raspberry Pi & Sensores RFID</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> FTP (FileZilla) & Postman</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projetos em Destaque -->
-        <section id="projetos" class="py-20 border-t border-darkBorder/60 bg-darkCard/30">
+        <!-- Sistemas Desenvolvidos (Portfólio Profissional) -->
+        <section id="sistemas" class="py-20 border-t border-darkBorder/60 bg-darkCard/30">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
-                    <h2 class="text-xs font-mono tracking-widest text-cyan-400 uppercase">Casos Reais</h2>
-                    <p class="text-3xl sm:text-4xl font-extrabold text-white">Projetos em Destaque</p>
+                    <h2 class="text-xs font-mono tracking-widest text-cyan-400 uppercase">Experiência Aplicada</h2>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-white">Sistemas Corporativos Desenvolvidos</p>
                     <div class="w-16 h-1 bg-gradient-to-r from-brand-500 to-cyan-500 mx-auto rounded-full"></div>
+                    <p class="text-sm text-slate-400 pt-4">Soluções tecnológicas construídas do zero, abrangendo desde a infraestrutura do banco de dados até a interface do usuário final e comunicação com hardwares.</p>
                 </div>
 
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     
                     <!-- Catresp Access -->
-                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder hover:border-cyan-500/50 transition-all space-y-6 flex flex-col justify-between group">
-                        <div class="space-y-4">
-                            <div class="flex items-center justify-between">
-                                <span class="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
-                                    Catresp SP • Controle de Acesso
-                                </span>
-                                <div class="w-9 h-9 rounded-xl bg-slate-900 border border-darkBorder flex items-center justify-center text-slate-400 group-hover:text-cyan-400 transition-colors">
-                                    <i data-lucide="shield-check" class="w-5 h-5"></i>
-                                </div>
-                            </div>
+                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder hover:border-cyan-500/50 transition-all space-y-6 flex flex-col justify-between group relative overflow-hidden">
+                        <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i data-lucide="scan-face" class="w-24 h-24 text-cyan-500"></i>
+                        </div>
+                        <div class="space-y-4 relative z-10">
+                            <span class="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                                Catresp SP • Plataforma Comercial
+                            </span>
                             <h3 class="text-2xl font-bold text-white group-hover:text-cyan-400 transition-colors">
-                                Catresp Access – Plataforma de Eventos & Facial
+                                Catresp Access – Sistema de Credenciamento e Catracas
                             </h3>
                             <p class="text-sm text-slate-300 leading-relaxed">
-                                Sistema de controle de catracas e credenciamento de grandes eventos. Integração de biometria facial com terminais Control iD, leitura de QR Code/RFID, trava Anti-Passback, cadastro de fotos por link via WhatsApp e dashboard de ocupação em tempo real.
+                                Uma robusta plataforma desenvolvida para a gestão de grandes eventos. Atua diretamente no controle de catracas eletrônicas garantindo segurança e alto fluxo de validação.
                             </p>
-                            <ul class="space-y-2 text-xs text-slate-400">
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Sincronização via API cURL direta com terminais Control iD</li>
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Importação em lote de participantes via planilhas CSV</li>
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Painel de auditoria, lotação e relatórios com suporte a impressão</li>
+                            <ul class="space-y-2 text-sm text-slate-400 mt-4">
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-cyan-400"></i> Integração avançada com biometria facial via terminais Control iD.</li>
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-cyan-400"></i> Implementação de leitores de QR Code e RFID com microcontroladores (Raspberry Pi).</li>
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-cyan-400"></i> Lógica de segurança de trava Anti-Passback.</li>
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-cyan-400"></i> Fluxo de auto-cadastro de fotos via WhatsApp e dashboard analítico em tempo real.</li>
                             </ul>
-                        </div>
-                        <div class="pt-4 border-t border-darkBorder flex flex-wrap gap-2 text-xs font-mono text-cyan-300">
-                            <span>#PHP</span> <span>#MySQL</span> <span>#Control_iD</span> <span>#REST_API</span>
                         </div>
                     </div>
 
                     <!-- Painel RH Tranquility -->
-                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder hover:border-brand-500/50 transition-all space-y-6 flex flex-col justify-between group">
-                        <div class="space-y-4">
-                            <div class="flex items-center justify-between">
-                                <span class="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-brand-500/10 text-brand-400 border border-brand-500/20">
-                                    Grupo SEGPAR • Sistema RH
-                                </span>
-                                <div class="w-9 h-9 rounded-xl bg-slate-900 border border-darkBorder flex items-center justify-center text-slate-400 group-hover:text-brand-400 transition-colors">
-                                    <i data-lucide="users" class="w-5 h-5"></i>
-                                </div>
-                            </div>
+                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder hover:border-brand-500/50 transition-all space-y-6 flex flex-col justify-between group relative overflow-hidden">
+                        <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i data-lucide="users" class="w-24 h-24 text-brand-500"></i>
+                        </div>
+                        <div class="space-y-4 relative z-10">
+                            <span class="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-brand-500/10 text-brand-400 border border-brand-500/20">
+                                Grupo SEGPAR • Gestão Interna
+                            </span>
                             <h3 class="text-2xl font-bold text-white group-hover:text-brand-400 transition-colors">
-                                Painel RH Tranquility & Integração de Ponto
+                                Painel RH Tranquility
                             </h3>
                             <p class="text-sm text-slate-300 leading-relaxed">
-                                Plataforma interna desenvolvida para o Grupo SEGPAR (GSM, Tranquility, GS1, ES Park). Integração com a API do software RHiD (Control iD) para consolidação automática de registros de ponto e espelho de ponto eletrônico.
+                                Plataforma interna projetada para automatizar o departamento de Recursos Humanos de empresas do Grupo SEGPAR (GSM, Tranquility, GS1, ES Park).
                             </p>
-                            <ul class="space-y-2 text-xs text-slate-400">
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Integração com endpoints de cálculo de jornada e batidas de ponto</li>
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Emissão automatizada de termos admissionais e relatórios PDF</li>
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Infraestrutura hospedada em nuvem na DigitalOcean</li>
+                            <ul class="space-y-2 text-sm text-slate-400 mt-4">
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-brand-400"></i> Comunicação via API RESTful com o software RHiD (Control iD).</li>
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-brand-400"></i> Consolidação automatizada de batidas de ponto eletrônico e cálculo de jornadas.</li>
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-brand-400"></i> Emissão dinâmica de relatórios em PDF e termos admissionais.</li>
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-brand-400"></i> Ambiente hospedado na nuvem (DigitalOcean) utilizando PHP e MySQL.</li>
                             </ul>
-                        </div>
-                        <div class="pt-4 border-t border-darkBorder flex flex-wrap items-center justify-between gap-4">
-                            <div class="flex flex-wrap gap-2 text-xs font-mono text-brand-300">
-                                <span>#PHP</span> <span>#MySQL</span> <span>#RHiD</span> <span>#DigitalOcean</span>
-                            </div>
-                            <a href="https://github.com/vini10sz/Painel_RH_Tranquility" target="_blank" rel="noopener" class="text-xs font-bold text-brand-400 hover:text-brand-300 flex items-center gap-1">
-                                Repositório <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
-                            </a>
                         </div>
                     </div>
 
-                    <!-- Snack-On / E-Snack -->
-                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder hover:border-amber-500/50 transition-all space-y-6 flex flex-col justify-between group">
-                        <div class="space-y-4">
-                            <div class="flex items-center justify-between">
-                                <span class="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
-                                    🏆 TCC Premiado • ETEC Guarulhos
-                                </span>
-                                <div class="w-9 h-9 rounded-xl bg-slate-900 border border-darkBorder flex items-center justify-center text-slate-400 group-hover:text-amber-400 transition-colors">
-                                    <i data-lucide="trophy" class="w-5 h-5"></i>
-                                </div>
-                            </div>
-                            <h3 class="text-2xl font-bold text-white group-hover:text-amber-400 transition-colors">
-                                Snack-On / E-Snack – Automação de Cantinas
+                    <!-- SAK Interno -->
+                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder hover:border-emerald-500/50 transition-all space-y-6 flex flex-col justify-between group relative overflow-hidden">
+                        <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i data-lucide="shield-alert" class="w-24 h-24 text-emerald-500"></i>
+                        </div>
+                        <div class="space-y-4 relative z-10">
+                            <span class="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                                Grupo SEGPAR • Controle Operacional
+                            </span>
+                            <h3 class="text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                                SAK Interno (Sistema de Atendimento e Ocorrências)
                             </h3>
                             <p class="text-sm text-slate-300 leading-relaxed">
-                                Sistema Web e Mobile para informatização de cantinas escolares. Reconhecido como a <strong>Melhor Apresentação e Projeto</strong> do semestre na ETEC.
+                                Solução para rastreamento de sinistros, incidentes operacionais e auditoria corporativa.
                             </p>
-                            <ul class="space-y-2 text-xs text-slate-400">
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Backend em Java com Spring Boot (API RESTful)</li>
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> App Android nativo e plataforma Web responsiva</li>
+                            <ul class="space-y-2 text-sm text-slate-400 mt-4">
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-emerald-400"></i> Desenvolvimento de painel administrativo completo com hierarquia de usuários.</li>
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-emerald-400"></i> Funcionalidades de tracking de custos, descontos de sinistros e prazos de documentos.</li>
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-emerald-400"></i> Manutenção de banco de dados e execução de scripts SQL para integridade relacional.</li>
                             </ul>
-                        </div>
-                        <div class="pt-4 border-t border-darkBorder flex flex-wrap items-center justify-between gap-4">
-                            <div class="flex flex-wrap gap-2 text-xs font-mono text-amber-300">
-                                <span>#Java</span> <span>#SpringBoot</span> <span>#Android</span> <span>#MySQL</span>
-                            </div>
-                            <a href="https://github.com/vini10sz/Esnack-WEb" target="_blank" rel="noopener" class="text-xs font-bold text-amber-400 hover:text-amber-300 flex items-center gap-1">
-                                Repositório <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
-                            </a>
                         </div>
                     </div>
 
-                    <!-- segparSak & tranquilityOficial -->
-                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder hover:border-purple-500/50 transition-all space-y-6 flex flex-col justify-between group">
-                        <div class="space-y-4">
-                            <div class="flex items-center justify-between">
-                                <span class="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-purple-500/10 text-purple-400 border border-purple-500/20">
-                                    Grupo SEGPAR • Módulos Internos
-                                </span>
-                                <div class="w-9 h-9 rounded-xl bg-slate-900 border border-darkBorder flex items-center justify-center text-slate-400 group-hover:text-purple-400 transition-colors">
-                                    <i data-lucide="lock" class="w-5 h-5"></i>
-                                </div>
-                            </div>
+                    <!-- Gestão Ergonômica -->
+                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder hover:border-purple-500/50 transition-all space-y-6 flex flex-col justify-between group relative overflow-hidden">
+                        <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i data-lucide="activity" class="w-24 h-24 text-purple-500"></i>
+                        </div>
+                        <div class="space-y-4 relative z-10">
+                            <span class="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-purple-500/10 text-purple-400 border border-purple-500/20">
+                                Corporativo • Saúde Ocupacional
+                            </span>
                             <h3 class="text-2xl font-bold text-white group-hover:text-purple-400 transition-colors">
-                                segparSak & tranquilityOficial
+                                Gestão Ergonômica
                             </h3>
                             <p class="text-sm text-slate-300 leading-relaxed">
-                                Conjunto de ferramentas corporativas para atendimento operacional, controle de bilhetagem com QR Code e portal oficial do grupo.
+                                Plataforma corporativa desenvolvida para digitalizar processos de saúde ocupacional, laudos e métricas trabalhistas.
                             </p>
+                            <ul class="space-y-2 text-sm text-slate-400 mt-4">
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-purple-400"></i> Estruturação de formulários dinâmicos para coleta de dados de ergonomia.</li>
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-purple-400"></i> Painel de indicadores para acompanhamento de saúde corporativa.</li>
+                                <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 mt-0.5 text-purple-400"></i> Foco em conformidade, segurança da informação e estruturação limpa do banco de dados.</li>
+                            </ul>
                         </div>
-                        <div class="pt-4 border-t border-darkBorder flex flex-wrap gap-2 text-xs font-mono text-purple-300">
-                            <span>#FullStack</span> <span>#PHP</span> <span>#MySQL</span> <span>#DigitalOcean</span>
+                    </div>
+
+                    <!-- E-Snack (TCC) -->
+                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder hover:border-amber-500/50 transition-all space-y-6 flex flex-col justify-between group relative overflow-hidden lg:col-span-2">
+                        <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i data-lucide="smartphone" class="w-24 h-24 text-amber-500"></i>
+                        </div>
+                        <div class="space-y-4 relative z-10 w-full lg:w-2/3">
+                            <span class="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
+                                ETEC Guarulhos • TCC Premiado
+                            </span>
+                            <h3 class="text-2xl font-bold text-white group-hover:text-amber-400 transition-colors">
+                                Snack-On / E-Snack – Automação de Pedidos
+                            </h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">
+                                Sistema Web e Mobile desenhado para informatização e otimização de fluxo em cantinas. O projeto foi reconhecido academicamente como a <strong>Melhor Apresentação e Projeto</strong> do semestre na ETEC.
+                            </p>
+                            <ul class="space-y-2 text-sm text-slate-400 mt-4">
+                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400"></i> Back-end estruturado em Java utilizando o framework Spring Boot.</li>
+                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400"></i> Desenvolvimento de Aplicativo nativo em Android via Android Studio.</li>
+                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400"></i> Design de Interface de usuário fluída e responsiva.</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -433,15 +402,9 @@
             </div>
         </section>
 
-        <!-- Experiência -->
-        <section id="experiencia" class="py-20 border-t border-darkBorder/60">
+        <!-- Experiência Profissional Histórica -->
+        <section class="py-20 border-t border-darkBorder/60">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
-                    <h2 class="text-xs font-mono tracking-widest text-brand-400 uppercase">Trajetória</h2>
-                    <p class="text-3xl sm:text-4xl font-extrabold text-white">Experiência Profissional</p>
-                    <div class="w-16 h-1 bg-gradient-to-r from-brand-500 to-cyan-500 mx-auto rounded-full"></div>
-                </div>
-
                 <div class="max-w-4xl mx-auto space-y-8 relative before:absolute before:inset-0 before:left-8 before:w-0.5 before:bg-gradient-to-b before:from-brand-500 before:via-cyan-500 before:to-slate-700">
                     
                     <div class="relative pl-16 space-y-2">
@@ -453,7 +416,7 @@
                             </div>
                             <div class="text-sm font-semibold text-cyan-400">Grupo SEGPAR (GSM, Tranquility, GS1, ES Park)</div>
                             <p class="text-sm text-slate-300 leading-relaxed">
-                                Desenvolvimento e sustentação de sistemas internos (Painel RH, segparSak), integração de APIs REST com hardware Control iD para espelho de ponto, administração de servidores na DigitalOcean e gestão técnica de TI.
+                                Desenvolvimento, atualização e manutenção de sistemas corporativos (como o Painel RH Tranquility e SAK). Responsável direto pela integração de APIs REST, espelho de ponto eletrônico com a Control iD, gestão do banco de dados, deploy de recursos e administração da infraestrutura de rede e servidores em nuvem DigitalOcean.
                             </p>
                         </div>
                     </div>
@@ -467,7 +430,7 @@
                             </div>
                             <div class="text-sm font-semibold text-cyan-400">Catresp SP</div>
                             <p class="text-sm text-slate-300 leading-relaxed">
-                                Desenvolvimento completo da plataforma Catresp Access: validação facial e QR Code em catracas eletrônicas, travas Anti-Passback, auto-cadastro via WhatsApp e dashboard analítico.
+                                Projeto, arquitetura e codificação integral do Catresp Access. Implementação de lógicas avançadas de credenciamento utilizando validação via hardware, controle antifraude (Anti-Passback) em catracas e banco de dados isolado para a operação corporativa.
                             </p>
                         </div>
                     </div>
@@ -481,7 +444,7 @@
                             </div>
                             <div class="text-sm font-semibold text-slate-400">Açobril Comercial de Aço LTDA</div>
                             <p class="text-sm text-slate-300 leading-relaxed">
-                                Manutenção preventiva de computadores, execução de rotinas de backup de dados e suporte na organização de arquivos e planilhas.
+                                Suporte tecnológico de base: manutenção preventiva de computadores, saúde das máquinas (hardware e software), execução rigorosa de rotinas de backup, gerenciamento de dados administrativos e suporte à infraestrutura da empresa.
                             </p>
                         </div>
                     </div>
@@ -490,102 +453,128 @@
             </div>
         </section>
 
-        <!-- Formação & Certificados -->
+        <!-- Formação Acadêmica, Cursos & Idiomas -->
         <section id="formacao" class="py-20 border-t border-darkBorder/60 bg-darkCard/30">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
-                    <h2 class="text-xs font-mono tracking-widest text-cyan-400 uppercase">Qualificações</h2>
-                    <p class="text-3xl sm:text-4xl font-extrabold text-white">Formação & Certificações</p>
+                    <h2 class="text-xs font-mono tracking-widest text-cyan-400 uppercase">Base de Conhecimento</h2>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-white">Formação, Certificações e Idiomas</p>
                     <div class="w-16 h-1 bg-gradient-to-r from-brand-500 to-cyan-500 mx-auto rounded-full"></div>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder space-y-6">
-                        <div class="flex items-center gap-3">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    
+                    <!-- Bloco FATEC & ETEC -->
+                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder space-y-8">
+                        <div class="flex items-center gap-3 border-b border-darkBorder pb-4">
                             <i data-lucide="graduation-cap" class="w-6 h-6 text-brand-400"></i>
                             <h3 class="text-xl font-bold text-white">Formação Acadêmica</h3>
                         </div>
                         
-                        <div class="space-y-6">
-                            <div class="border-l-2 border-brand-500/40 pl-4 space-y-1">
-                                <h4 class="font-bold text-white">Análise e Desenvolvimento de Sistemas (ADS)</h4>
-                                <p class="text-sm text-cyan-400">FATEC Guarulhos • Cursando 4º Semestre (2025 – 2027)</p>
-                                <p class="text-xs text-slate-400">Projetos corporativos práticos e engenharia de software. Membro ativo da Atlética.</p>
+                        <div class="space-y-8">
+                            <div class="border-l-2 border-brand-500 pl-4 space-y-2">
+                                <h4 class="font-bold text-lg text-white">Análise e Desenvolvimento de Sistemas (ADS)</h4>
+                                <p class="text-sm font-semibold text-cyan-400">FATEC Guarulhos • Cursando (4º Semestre)</p>
+                                <p class="text-sm text-slate-300 leading-relaxed text-justify">
+                                    Formação superior focada na tecnologia da informação e projetos de mercado. Durante a graduação, aprofundei amplos conhecimentos nas disciplinas da matriz curricular como: <strong>Engenharia de Software (I, II e III)</strong>, <strong>Banco de Dados</strong>, <strong>Programação Orientada a Objetos</strong>, <strong>Estrutura de Dados</strong>, <strong>Redes de Computadores</strong>, <strong>Sistemas Operacionais (I e II)</strong>, <strong>Interação Humano Computador</strong>, <strong>Matemática Discreta</strong> e <strong>Estatística Aplicada</strong>.
+                                </p>
                             </div>
 
-                            <div class="border-l-2 border-brand-500/40 pl-4 space-y-1">
-                                <h4 class="font-bold text-white">Técnico em Desenvolvimento de Sistemas</h4>
-                                <p class="text-sm text-cyan-400">ETEC de Guarulhos • Concluído em 2024</p>
-                                <p class="text-xs text-slate-400">Base técnica completa. TCC premiado como Melhor Projeto do semestre.</p>
+                            <div class="border-l-2 border-brand-500/40 pl-4 space-y-2">
+                                <h4 class="font-bold text-lg text-white">Técnico em Desenvolvimento de Sistemas</h4>
+                                <p class="text-sm font-semibold text-cyan-400">ETEC de Guarulhos • Concluído em 2024</p>
+                                <p class="text-sm text-slate-300 leading-relaxed text-justify">
+                                    Base técnica integral e altamente prática. As competências adquiridas abrangeram a totalidade da formação técnica, cursando matérias chave como: <strong>Programação Web (I, II e III)</strong>, <strong>Banco de Dados (I e II)</strong>, <strong>Programação de Aplicativos Mobile (I e II)</strong>, <strong>Sistemas Embarcados</strong>, <strong>Análise e Projeto de Sistemas</strong>, <strong>Qualidade e Teste de Software</strong>, e <strong>Internet, Protocolos e Segurança de Sistemas da Informação</strong>. O curso foi coroado com o TCC E-Snack, reconhecido como Melhor Projeto.
+                                </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder space-y-6">
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="award" class="w-6 h-6 text-cyan-400"></i>
-                            <h3 class="text-xl font-bold text-white">Certificações</h3>
+                    <!-- Bloco Idiomas e Certificações -->
+                    <div class="space-y-8">
+                        
+                        <!-- Idioma -->
+                        <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder space-y-4">
+                            <div class="flex items-center gap-3 border-b border-darkBorder pb-4">
+                                <i data-lucide="globe" class="w-6 h-6 text-cyan-400"></i>
+                                <h3 class="text-xl font-bold text-white">Inglês Proficiente</h3>
+                            </div>
+                            <div class="space-y-3">
+                                <p class="text-sm text-slate-300 leading-relaxed text-justify">
+                                    Fluência e capacidade de leitura de documentação técnica certificada internacionalmente pelo <strong>EF SET Certificate</strong>, atingindo a nota <strong>77/100 - Nível C2 Proficient (CEFR)</strong>. Destaque para as competências de Leitura (100/100) e Escrita (89/100).
+                                </p>
+                                <p class="text-sm text-slate-300 leading-relaxed text-justify">
+                                    Possuo ainda sólida base de estudos complementares com 3 anos de curso na instituição Fisk (níveis Básico e Intermediário).
+                                </p>
+                            </div>
                         </div>
 
-                        <div class="grid grid-cols-1 gap-3 text-xs">
-                            <div class="p-3 rounded-xl bg-darkBg border border-darkBorder flex items-center gap-3">
-                                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 shrink-0"></i>
-                                <div>
-                                    <strong class="text-white block">Google Data Analytics Professional Certificate</strong>
-                                    <span class="text-slate-400">Coursera / Google</span>
-                                </div>
+                        <!-- Certificações -->
+                        <div class="p-8 rounded-3xl bg-darkCard border border-darkBorder space-y-6">
+                            <div class="flex items-center gap-3 border-b border-darkBorder pb-4">
+                                <i data-lucide="award" class="w-6 h-6 text-emerald-400"></i>
+                                <h3 class="text-xl font-bold text-white">Certificações e Extensões</h3>
                             </div>
 
-                            <div class="p-3 rounded-xl bg-darkBg border border-darkBorder flex items-center gap-3">
-                                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 shrink-0"></i>
-                                <div>
-                                    <strong class="text-white block">CCNA1 & Maratona CiberEducação</strong>
-                                    <span class="text-slate-400">Cisco Networking Academy</span>
-                                </div>
-                            </div>
-
-                            <div class="p-3 rounded-xl bg-darkBg border border-darkBorder flex items-center gap-3">
-                                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 shrink-0"></i>
-                                <div>
-                                    <strong class="text-white block">Escola de Inovadores</strong>
-                                    <span class="text-slate-400">Centro Paula Souza (2025)</span>
-                                </div>
-                            </div>
-
-                            <div class="p-3 rounded-xl bg-darkBg border border-darkBorder flex items-center gap-3">
-                                <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 shrink-0"></i>
-                                <div>
-                                    <strong class="text-white block">Inglês Básico ao Intermediário (3 anos)</strong>
-                                    <span class="text-slate-400">Fisk</span>
-                                </div>
-                            </div>
+                            <ul class="grid grid-cols-1 gap-3 text-sm text-slate-300">
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"></i>
+                                    <div>
+                                        <strong class="text-white block">Google Data Analytics Professional Certificate</strong>
+                                        <span class="text-xs text-slate-400">Coursera / Google</span>
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"></i>
+                                    <div>
+                                        <strong class="text-white block">CCNA1 & CiberEducação</strong>
+                                        <span class="text-xs text-slate-400">Cisco Networking Academy</span>
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"></i>
+                                    <div>
+                                        <strong class="text-white block">Escola de Inovadores</strong>
+                                        <span class="text-xs text-slate-400">Centro Paula Souza</span>
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"></i>
+                                    <div>
+                                        <strong class="text-white block">Especializações Avançadas Diversas</strong>
+                                        <span class="text-xs text-slate-400 leading-relaxed block mt-1">
+                                            Certificados emitidos e arquivados em áreas corporativas modernas: <strong>Computação em Nuvem</strong>, <strong>Engenharia de Dados</strong>, <strong>Inteligência Artificial</strong>, <strong>Modelagem de Dados</strong>, <strong>Segurança de Dados</strong>, <strong>Internet das Coisas (IoT)</strong> e <strong>O Marketing Digital</strong>.
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contato -->
+        <!-- Contato Executivo -->
         <section id="contato" class="py-24 border-t border-darkBorder/60">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="max-w-4xl mx-auto rounded-3xl bg-gradient-to-b from-darkCard to-darkBg border border-darkBorder p-8 sm:p-12 text-center space-y-8">
-                    <div class="space-y-3">
+                <div class="max-w-4xl mx-auto rounded-3xl bg-gradient-to-b from-darkCard to-darkBg border border-darkBorder p-8 sm:p-12 text-center space-y-8 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-8 opacity-5">
+                        <i data-lucide="mail" class="w-32 h-32 text-brand-500"></i>
+                    </div>
+                    <div class="space-y-4 relative z-10">
                         <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Contato</span>
-                        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Vamos construir novas soluções juntos</h2>
-                        <p class="text-slate-400 max-w-xl mx-auto text-sm sm:text-base">
-                            Disponível para consultoria, desenvolvimento de novos sistemas, automações ou contratações (PJ ou CLT).
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Impulsione a tecnologia do seu negócio</h2>
+                        <p class="text-slate-400 max-w-xl mx-auto text-sm sm:text-base leading-relaxed">
+                            Possuo visão estratégica para resolver gargalos corporativos através da tecnologia. Estou disponível para consultorias técnicas, desenvolvimento de sistemas complexos e automação de regras de negócio (Contratos PJ / MEI).
                         </p>
                     </div>
 
-                    <div class="flex flex-wrap items-center justify-center gap-4">
-                        <a href="mailto:viniciusdesouza1906@gmail.com" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-brand-600 to-cyan-600 text-white font-semibold text-sm hover:opacity-95 shadow-lg shadow-brand-500/25 flex items-center gap-2">
-                            <i data-lucide="mail" class="w-4 h-4"></i> viniciusdesouza1906@gmail.com
+                    <div class="flex flex-wrap items-center justify-center gap-4 relative z-10">
+                        <a href="mailto:viniciusdesouza1906@gmail.com" class="px-6 py-4 rounded-xl bg-gradient-to-r from-brand-600 to-cyan-600 text-white font-bold text-sm hover:opacity-95 shadow-lg shadow-brand-500/25 flex items-center gap-2 transition-transform hover:scale-105">
+                            <i data-lucide="mail" class="w-5 h-5"></i> viniciusdesouza1906@gmail.com
                         </a>
-                        <a href="https://www.linkedin.com/in/vinicius-souza-7731b9263/" target="_blank" rel="noopener" class="px-6 py-3.5 rounded-xl bg-darkCard border border-darkBorder hover:border-blue-500 text-slate-200 font-semibold text-sm hover:bg-slate-800 transition-all flex items-center gap-2">
-                            <i data-lucide="linkedin" class="w-4 h-4 text-blue-400"></i> LinkedIn
-                        </a>
-                        <a href="https://github.com/vini10sz" target="_blank" rel="noopener" class="px-6 py-3.5 rounded-xl bg-darkCard border border-darkBorder hover:border-slate-500 text-slate-200 font-semibold text-sm hover:bg-slate-800 transition-all flex items-center gap-2">
-                            <i data-lucide="github" class="w-4 h-4"></i> GitHub
+                        <a href="https://www.linkedin.com/in/vinicius-souza-7731b9263/" target="_blank" rel="noopener" class="px-6 py-4 rounded-xl bg-darkCard border border-darkBorder hover:border-blue-500 text-slate-200 font-bold text-sm hover:bg-slate-800 transition-all flex items-center gap-2">
+                            <i data-lucide="linkedin" class="w-5 h-5 text-blue-400"></i> LinkedIn
                         </a>
                     </div>
                 </div>
@@ -598,7 +587,7 @@
     <footer class="py-8 border-t border-darkBorder bg-darkBg text-center text-xs text-slate-500 font-mono">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>© 2026 Vinicius de Souza. CNPJ 68.315.732/0001-04. Todos os direitos reservados.</div>
-            <a href="#sobre" class="hover:text-white transition-colors">Voltar ao topo ↑</a>
+            <a href="#" class="hover:text-white transition-colors">Voltar ao topo ↑</a>
         </div>
     </footer>
 
